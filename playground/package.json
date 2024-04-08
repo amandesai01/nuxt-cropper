@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "nuxt-cropper-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@vueuse/core": "^10.9.0",
+    "daisyui": "^4.10.1",
+    "nuxt": "latest",
+    "tailwindcss": "^3.4.3"
+  }
+}
