@@ -7,25 +7,25 @@ Find and replace all on all files (CMD+SHIFT+F):
 - Description: Simplify cropping images in Nuxt3
 -->
 
-# Nuxt-Cropper
+# Nuxt Cropper
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Simplify cropping images in Nuxt3 for doing amazing things.
+Wrapper over [Vue Advanced Cropper](https://advanced-cropper.github.io/vue-advanced-cropper) to make it easily integrate with Nuxt3.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-cropper?file=playground%2Fapp.vue) -->
+- [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-cropper?file=playground%2Fapp.vue)
 <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 ## Features
 
 <!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- ⚡️ &nbsp;Lazily imported and pre-configured VueAdvancedCropper.
+- 🚠 &nbsp;Handy composable - `useImageCropper()` to abstract away all the complexity.
+- 🌲 &nbsp;Very stable thanks to [Vue Advanced Cropper](https://advanced-cropper.github.io/vue-advanced-cropper)
 
 ## Quick Setup
 
@@ -35,7 +35,7 @@ Install the module to your Nuxt application with one command:
 npx nuxi module add nuxt-cropper
 ```
 
-That's it! You can now use Nuxt-Cropper in your Nuxt app ✨
+That's it! You can now use Nuxt Cropper in your Nuxt app ✨
 
 
 ## Contribution
