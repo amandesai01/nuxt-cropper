@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.2
+
+[compare changes](https://github.com/amandesai01/nuxt-cropper/compare/v0.0.1...v0.0.2)
+
+### 🚀 Enhancements
+
+- Auto fetch css on pages using composable. ([668a602](https://github.com/amandesai01/nuxt-cropper/commit/668a602))
+
+### 🩹 Fixes
+
+- Config key ([3280617](https://github.com/amandesai01/nuxt-cropper/commit/3280617))
+
+### ❤️ Contributors
+
+- Amandesai01 <amandesai01@gmail.com>
+
 ## v0.0.1
 
 
