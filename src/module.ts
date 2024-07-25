@@ -6,7 +6,7 @@ export interface ModuleOptions {}
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: 'nuxt-cropper',
-    configKey: 'myModule'
+    configKey: 'cropper'
   },
   // Default configuration options of the Nuxt module
   defaults: {},
