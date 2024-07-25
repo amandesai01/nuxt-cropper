@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/amandesai01/nuxt-cropper/compare/v0.0.2...v0.0.3)
+
+### 🏡 Chore
+
+- Remove postinstall command ([038bcaa](https://github.com/amandesai01/nuxt-cropper/commit/038bcaa))
+
+### ❤️ Contributors
+
+- Amandesai01 <amandesai01@gmail.com>
+
 ## v0.0.2
 
 [compare changes](https://github.com/amandesai01/nuxt-cropper/compare/v0.0.1...v0.0.2)

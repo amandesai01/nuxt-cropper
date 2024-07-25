@@ -1,6 +1,6 @@
 {
   "name": "nuxt-cropper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simplify cropping images in Nuxt3",
   "repository": "amandesai01/nuxt-cropper",
   "license": "MIT",
