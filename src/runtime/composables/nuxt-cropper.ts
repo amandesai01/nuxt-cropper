@@ -1,5 +1,11 @@
 import type { Cropper } from "vue-advanced-cropper";
 
+export const CSS_HEAD = {
+  rel: "stylesheet",
+  type: "text/css",
+  href: "https://unpkg.com/vue-advanced-cropper@^2.0.0/dist/style.css",
+};
+
 function getMimeType(file: ArrayBuffer, fallback = null) {
   const byteArray = new Uint8Array(file).subarray(0, 4);
   let header = "";
@@ -28,6 +34,9 @@ export function useImageCropper(
     maxInputFileSizeInBytes?: number;
   }
 ) {
+  useHead({
+    link: [CSS_HEAD],
+  })
   const _image = ref<{ src: string | null; type?: string | null } | null>(null);
   const _blobURL = ref<string | null>(null);
   const _croppedBlob = ref<Blob | null>(null);
