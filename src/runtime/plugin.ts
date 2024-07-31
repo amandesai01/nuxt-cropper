@@ -1,3 +1,5 @@
+import { defineAsyncComponent, defineNuxtPlugin } from "#imports";
+
 export default defineNuxtPlugin((nuxtApp) => {
   const cropper = defineAsyncComponent(
     async () => (await import("vue-advanced-cropper")).Cropper

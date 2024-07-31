@@ -1,3 +1,5 @@
+import { ref, type Ref, useHead } from "#imports";
+
 import type { Cropper } from "vue-advanced-cropper";
 
 export const CSS_HEAD = {
