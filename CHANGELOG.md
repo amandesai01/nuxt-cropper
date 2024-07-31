@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.4
+
+[compare changes](https://github.com/amandesai01/nuxt-cropper/compare/v0.0.3...v0.0.4)
+
+### 🩹 Fixes
+
+- Explicit imports to avoid issues ([7cce0a5](https://github.com/amandesai01/nuxt-cropper/commit/7cce0a5))
+
+### ❤️ Contributors
+
+- Amandesai01 <amandesai01@gmail.com>
+
 ## v0.0.3
 
 [compare changes](https://github.com/amandesai01/nuxt-cropper/compare/v0.0.2...v0.0.3)
